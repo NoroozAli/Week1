@@ -24,7 +24,6 @@ align-items: center;
     display: flex;
     justify-content: space-around;
 }
-
 .texth1{
     color: #1f1716;
     font-size: 36px;
@@ -37,17 +36,25 @@ align-items: center;
     font-weight: bold;
     line-height: 50px;
 }
+.soft-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .textp{
     color: black;
     font-size: 17px;
-    width: 52%;
+    margin-right: 17rem;
+    margin-left: 10rem;
 }   
 .texta{
-    
     background-color: #1f1716;
-    color: #fff;
-    text-decoration: none;  
     margin-top: 20px; 
+    margin-right: 42%;
+}
+.texta a{
+    text-decoration: none;
+    color: #fff;
 }
 .text-bg img{
     margin-left:38rem;
@@ -68,6 +75,7 @@ align-items: center;
 .middle{
     background-color: rgb(189, 250, 242);
     text-align: center;
+    padding-bottom: 10px;
 }
 .dualflex{
     flex-direction: column;
@@ -186,24 +194,23 @@ align-items: center;
     background-image: url(contact_bg.jpg);
     display: flex;
     justify-content: center;
-    height: 24rem;
+    align-items: center;
 }
 .contact1{
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-top: 4rem;
    color: white;
-   margin-bottom: -9rem;
    margin-right: 130px;
 }
 .form_box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:7%;
     background-color: white;
     border: 2px solid;
+    width: 257px;
+    height: 261px;
 }
 .download{
     color: rgb(50, 173, 50);
@@ -224,7 +231,13 @@ align-items: center;
      align-items: center;
 }
 .contactus{
-    padding-top: 4px;
+    padding-top: 26px;
+}
+
+.contactus input{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
 }
 
 @media (max-width:1030px){
@@ -305,12 +318,12 @@ align-items: center;
         text-align: center;
     }
     .right{
-        margin-top: 6rem;
+        margin-top: 1rem;
     }
 }
 @media (max-width:490px){
     .right{
-        margin-top: 6rem;
+        margin-top: 10rem;
     }
     .contact1{
         margin-bottom: -3rem;
