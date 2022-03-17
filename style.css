@@ -12,18 +12,6 @@ body{
     align-items: center;
     background-repeat: no-repeat;
 }
-.align{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-.align a{
-align-items: center;
-}
-.gallery{
-    display: flex;
-    justify-content: space-around;
-}
 .texth1{
     color: #1f1716;
     font-size: 36px;
@@ -46,11 +34,13 @@ align-items: center;
     font-size: 17px;
     margin-right: 17rem;
     margin-left: 10rem;
+    
 }   
 .texta{
     background-color: #1f1716;
     margin-top: 20px; 
     margin-right: 42%;
+    padding: 10px;
 }
 .texta a{
     text-decoration: none;
@@ -67,10 +57,12 @@ align-items: center;
     font-size: large;
     justify-content: center;
     padding-top: 23%;
+    padding-left: 25rem;
+    padding-right: 25rem;
 }
 .long{width: 79%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 .middle{
     background-color: rgb(189, 250, 242);
